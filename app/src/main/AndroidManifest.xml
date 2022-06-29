@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mylib">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyLib">
+        <activity
+            android:name=".ui.library.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.library.LessonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAddLessons"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminLessons"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAddTopics"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAddTerms"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAddBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminBookTopics"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminTerms"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.Admin"
+            android:exported="false" />
+        <activity
+            android:name=".latest.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.store.PurchaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.EditProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddProfile"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:label="@string/home" />
+        <activity
+            android:name=".ProfilesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VerificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MobileNumberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NoUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

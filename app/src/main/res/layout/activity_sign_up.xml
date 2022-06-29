@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_blue"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/s_text"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/free"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        app:backgroundTint="@null"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/round_bg"
+        android:text="@string/free"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/bg_blue"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/bg"
+        android:text="@string/login"
+        app:backgroundTint="@null"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@+id/free" />
+
+<!--    <Button-->
+<!--        android:id="@+id/google"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:background="@drawable/bg"-->
+<!--        android:text="@string/google"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/phone" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/apple"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:background="@drawable/bg"-->
+<!--        android:text="@string/apple"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/google" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="@string/login"-->
+<!--        android:textSize="22sp"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/apple" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

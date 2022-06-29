@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintTop_toBottomOf="@+id/question"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_5sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!--        <com.example.mylib.VideoView-->
+    <!--            android:id="@+id/sectionVideo"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_margin="@dimen/_5sdp"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/sectionContent"/>-->
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        />
+
+    <EditText
+        android:id="@+id/shortAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/choice" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/choice">
+
+        <!--            <androidx.recyclerview.widget.RecyclerView-->
+        <!--                android:id="@+id/oneAnswer"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content" />-->
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/multipleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/choice"
+        android:orientation="vertical" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintTop_toBottomOf="@+id/multipleChoice" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

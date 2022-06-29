@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">MyLib</string>
+    <string name="s_text">Hundreds of lessons \n Thousands of videos and illustrations </string>
+    <string name="login">Login</string>
+    <string name="free">Sign Up for free</string>
+    <string name="phone">Continue with phone number</string>
+    <string name="google">Continue with Google</string>
+    <string name="apple">Continue with Apple</string>
+    <string name="create">Create Account</string>
+    <string name="email">What\'s Your email?</string>
+    <string name="conf_email">You\'ll need to confirm this email later</string>
+    <string name="next">Next</string>
+    <string name="password">Create a password</string>
+    <string name="eight">Use be at least 8 characters</string>
+    <string name="mobile">Enter mobile number e.g +256775186939</string>
+    <string name="conf_mobile">You\'ll need to confirm this number later</string>
+    <string name="code_sent">We have sent a 6-digit code by sms to \n 070970768</string>
+    <string name="code">Enter the code</string>
+    <string name="did_not">Didn\'t receive a code?</string>
+    <string name="tap">Tap Next to accept the MyLib Data policy, Privacy Policy, Terms of service and cookie use</string>
+
+    <string name="profile">Add Profile</string>
+    <string name="name">App profile name</string>
+    <string name="gender">Gender</string>
+    <string name="another">Use another Number</string>
+    <string name="addP">Add a profile for a learner using MyLib</string>
+    <string name="M">M or F</string>
+    <string name="clas">Class</string>
+
+    <string name="edit">Edit</string>
+    <string name="learning">Who\'s learning?</string>
+    <string name="add">Add Profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="library">Your Library</string>
+    <string name="store">Store</string>
+
+    <string name="default_web_client_id">515480162438-nk0isc6mo03rni9qqd68r7mbua7bg9rd.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="editP">Edit Profile</string>
+    <string name="learn">Learning Analytics</string>
+    <string name="contact">Contact Us</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="change">Change User</string>
+    <string name="editLearner">Edit Profile for a learner using MyLib</string>
+    <string name="named">Name</string>
+    <string name="classed">Class</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+
+
+    <string name="books">Books</string>
+    <string name="cart">Cart</string>
+    <string name="buy_book">Buy Book</string>
+    <string name="buy_term">Buy a Term</string>
+    <string name="buy_text">buy</string>
+    <string name="addToCart">Add To Cart</string>
+    <string name="total">Total amount to Pay</string>
+    <string name="select">Select Your preferred payment</string>
+
+    <string name="specific">The mobile number specified below will be used for payment</string>
+    <string name="sufficient">Please ensure you have specific funds in your account to continue with your payment</string>
+
+    <string name="details">Enter Your details to continue</string>
+    <string name="detailLog">Please complete the details below to log into your payment wallet</string>
+    <string name="number">256701 xxxxxx</string>
+    <string name="pay">Pay Now</string>
+    <string name="payment">Payment</string>
+
+    <string name="readList">Reading List</string>
+    <string name="topic">Topics</string>
+    <string name="term">Terms</string>
+
+    <string name="status">Status Report</string>
+    <string name="topicReport">Topic Report</string>
+    <string name="complete">Complete: 0/20</string>
+
+
+    <string name="bTitle">Book Title</string>
+    <string name="bPrice">Book Price</string>
+    <string name="bDesc">Book Description</string>
+    <string name="bColor">Book Color</string>
+    <string name="bUrl">book Url</string>
+    <string name="bSubject">Book Subject</string>
+    <string name="bClass">Book Class</string>
+    <string name="lessons">Lessons</string>
+    <string name="topics">Number of Topics</string>
+
+    <string name="tTitle">Term Title</string>
+    <string name="tPrice">Term Price</string>
+
+    <string name="toTitle">Topic Title</string>
+    <string name="toTheme">Topic Theme</string>
+
+    <string name="lTitle">Lesson Title</string>
+    <string name="lContent">Lesson Content</string>
+    <string name="mType">Media Type</string>
+    <string name="mCaption">Media Caption</string>
+    <string name="quiz">Complete Quiz</string>
+
+    <string name="back">Back</string>
+    <string name="your_lib">Your Library</string>
+    <string name="score">Score: 0%</string>
+
+    <string name="addList">Add to a Reading List</string>
+    <string name="newList">New Reading List</string>
+    <string name="addLesson">Add Lesson</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="continueRead">Continue Reading</string>
+    <string name="mine">My Books</string>
+    <string name="myReadList">Reading Lists</string>
+    <string name="newUser">Kindly move to the store to access reading materials</string>
+    <string name="noList">No reading lists available</string>
+</resources>

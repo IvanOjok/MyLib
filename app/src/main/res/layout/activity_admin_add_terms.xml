@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.admin.AdminAddTerms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/termUrl"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/library"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/tTitle"
+                    android:textColor="@color/bg_blue"
+                    android:textSize="@dimen/_18ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termUrl" />
+
+                <EditText
+                    android:id="@+id/termTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/tTitle"
+                    android:padding="10dp"
+                    android:textSize="@dimen/_16ssp"
+                    android:textColor="@color/orange"
+                    app:layout_constraintTop_toBottomOf="@+id/tTitle" />
+
+                <TextView
+                    android:id="@+id/tPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/tPrice"
+                    android:textColor="@color/bg_blue"
+                    android:textSize="@dimen/_18ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termTitle" />
+
+                <EditText
+                    android:id="@+id/termPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/tPrice"
+                    android:padding="10dp"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_16ssp"
+                    app:layout_constraintTop_toBottomOf="@+id/tPrice" />
+
+                <TextView
+                    android:id="@+id/tlessons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/lessons"
+                    android:textColor="@color/bg_blue"
+                    android:textSize="@dimen/_18ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termPrice" />
+
+                <EditText
+                    android:id="@+id/termLessons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/lessons"
+                    android:padding="10dp"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_16ssp"
+                    app:layout_constraintTop_toBottomOf="@+id/tlessons" />
+
+
+                <TextView
+                    android:id="@+id/tTopics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/topics"
+                    android:textColor="@color/bg_blue"
+                    android:textSize="@dimen/_18ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/termLessons" />
+
+                <EditText
+                    android:id="@+id/termTopics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/topics"
+                    android:padding="10dp"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_16ssp"
+                    app:layout_constraintTop_toBottomOf="@+id/tTopics" />
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:background="@drawable/round_bg"
+                    android:gravity="center"
+                    android:text="@string/save"
+                    android:textSize="18sp"
+                    app:backgroundTint="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/termTopics" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

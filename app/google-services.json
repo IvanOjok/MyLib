@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "515480162438",
+    "firebase_url": "https://my-lib-project-46754.firebaseio.com",
+    "project_id": "my-lib-project-46754",
+    "storage_bucket": "my-lib-project-46754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515480162438:android:d9957ef32ffc8ba2e58107",
+        "android_client_info": {
+          "package_name": "com.example.mylib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515480162438-g5a2m5nkk8l9n98mlcovv2gl05amkdop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mylib",
+            "certificate_hash": "59503c30c877cf21bcfb1de2afb650e1ae87e5b8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe88KCrEZoQopln74RwTK19ZPeSGoO94s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515480162438-nk0isc6mo03rni9qqd68r7mbua7bg9rd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "515480162438-pjoajm976pvvs9lo3atb5ihlc17k5auj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softbox.mylib1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515480162438:android:7bde74be780cc2eae58107",
+        "android_client_info": {
+          "package_name": "com.softbox.mylib1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515480162438-arv2bgb1t4ol9dcksmoki37v75f9ulia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softbox.mylib1",
+            "certificate_hash": "1584529176f8c2292547870cad973b040d4503af"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe88KCrEZoQopln74RwTK19ZPeSGoO94s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515480162438-nk0isc6mo03rni9qqd68r7mbua7bg9rd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "515480162438-pjoajm976pvvs9lo3atb5ihlc17k5auj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softbox.mylib1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
